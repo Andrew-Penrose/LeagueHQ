@@ -8,7 +8,7 @@ assignees: Andrew-Penrose
 
 ## Objective
 
-## Acceptane Criteria
--[]
+## Acceptance Criteria
+- [ ]
 
 ## Technical Notes
