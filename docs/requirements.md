@@ -160,7 +160,7 @@ LeagueHQ records obligations and payments made outside the application. It does 
 | FR-047 | Automatic application of confirmed winnings toward outstanding dues may be supported. | C |
 | FR-048 | Actual payment processing, custody of funds and platform billing are deferred. | W |
 
-Leagues may settle winnings weekly or at season end. Winnings and payments are independent; potential winnings must never settle dues. Any settled amount affected by corrections must be explicitly reconciled rather than silently rewritten.
+Leagues may settle winnings weekly or at season end. Winnings and payments are independent; potential winnings must never settle dues. Pending confirmation winnings shall include an accessible explanation that fantasy scores may still change due to stat corrections. Any settled amount affected by corrections must be explicitly reconciled rather than silently rewritten.
 
 ### 4.6 League history
 
@@ -175,6 +175,7 @@ Leagues may settle winnings weekly or at season end. Winnings and payments are i
 | FR-055 | Members should be able to view historical head-to-head records. | S |
 | FR-056 | Members may be able to view career earnings and profitability, with incomplete financial coverage clearly indicated. | C |
 | FR-057 | The application may generate an end-of-season recap. | C |
+| FR-074 | Members should be able to compare historical draft position against final season placement, both league-wide and by individual participant, with sample sizes displayed. | S |
 
 Historical participation must not grant current league access. Career accomplishments are attributed to people, not inherited automatically when a team changes owners. Shared and midseason ownership attribution needs further definition.
 
@@ -193,7 +194,7 @@ Historical participation must not grant current league access. Career accomplish
 | ID | Requirement | Priority |
 | --- | --- | --- |
 | FR-063 | Commissioners shall be able to enter and correct fantasy data manually without requiring a live external service. | M |
-| FR-064 | The application should support bulk data import (e.g., CSV) to reduce manual entry and backfill league history. | S |
+| FR-064 | The application could support importing historical fantasy data using a documented CSV template. Arbitrary or inconsistently formatted spreadsheets are not required for the MVP. | C |
 | FR-065 | An early technical spike shall evaluate ESPN Fantasy and relevant sports data sources, including access, historical coverage, lineup and score granularity, identity mapping, reliability and usage restrictions. | M |
 | FR-066 | The application should synchronize relevant ESPN fantasy data automatically, subject to the findings of FR-065. | S |
 | FR-067 | Additional fantasy providers (e.g., Sleeper and Yahoo) are deferred. | W |
@@ -258,6 +259,7 @@ Proposed implementation sequence (not a schedule commitment):
 - Multi-league platform: self-service league creation, provider integrations, expanded configuration and platform-wide administration.
 - Fantasy analytics: player comparisons, contextual predictions, community voting and prediction accuracy, subject to reliable data access and operating costs.
 - Monetization: subscriptions or premium features may be considered. League fund handling is a distinct decision requiring additional legal, security and operational assessment.
+- Product demonstration: a public, read-only demo league using fictional data may be introduced in a future release.
 
 ## 8. Open questions and risks
 
