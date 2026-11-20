@@ -1,0 +1,10 @@
+# .NET generated output
+**/bin/
+**/obj/
+
+# IDE and operating system files
+.vs/
+.DS_Store
+
+# VS Code workspace settings
+.vscode/settings.json
