@@ -1,4 +1,3 @@
-using System.Security.Authentication.ExtendedProtection;
 
 var builder = WebApplication.CreateBuilder(args);
 
